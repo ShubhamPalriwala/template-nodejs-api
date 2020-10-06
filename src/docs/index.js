@@ -9,4 +9,4 @@ const swaggerDocument = YAML.load('./src/docs/swagger.yml');
 router.use('/api-docs', swaggerUI.serve);
 router.get('/api-docs', swaggerUI.setup(swaggerDocument));
 
-module.exports = router;
+export default router;

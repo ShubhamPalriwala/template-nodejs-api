@@ -10,4 +10,4 @@ const getStarted = () => {
 	};
 };
 
-module.exports = { getStarted };
+export default getStarted;

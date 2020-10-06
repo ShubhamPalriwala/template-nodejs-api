@@ -8,4 +8,4 @@ router.get('/', (req, res) => {
 	res.status(200).send(controller.getStarted());
 });
 
-module.exports = router;
+export default router;
